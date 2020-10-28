@@ -16,4 +16,4 @@ If everyone is present, the checklist can be skipped with the `--yes` or `-y` fl
 
 ## keeping up to date
 
-If you need to add, delete or change the options for selection simply change the array in the `lib/list` file.
+If you need to add, delete or change the options for selection simply change the array in the `lib/list.js` file.
