@@ -4,7 +4,7 @@ Works from the command line to print out a random order of when each person shou
 
 ## to install
 
-clone this repo, cd into the directory then run `yarn` to install dependancies
+clone this repo, `cd` into the directory then run `yarn` to install dependancies
 
 ## to use
 
