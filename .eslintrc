@@ -1,0 +1,14 @@
+
+{
+  "extends": ["brown", "brown/prettier"],
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "./"]
+      }
+    }
+  }
+}

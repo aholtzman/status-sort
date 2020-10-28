@@ -1,0 +1,31 @@
+{
+  "name": "@aholtzman/status-sort",
+  "description": "A CLI tool for randomly sorting staus update presentation order.",
+  "author": "Adam Holtzman",
+  "version": "1.0.0",
+  "main": "bin/status-sort",
+  "license": "MIT",
+  "bin": {
+    "status-sort": "bin/status-sort"
+  },
+  "scripts": {
+    "order": "node ./bin/status-sort.js $1"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "lib/"
+  ],
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "prettier": "^2.1.2",
+    "eslint-config-brown": "git+https://github.com/BrownUniversity/eslint-config-brown.git"
+  }
+}
